@@ -17,6 +17,8 @@ zztkm のための領収書処理サーバーです。
   - `gemma3:12b`
   - 指定不可
 
+そのため、`ollama pull gemma3:12b` を実行してモデルをダウンロードしておく必要があります。
+
 ## Install
 
 ```bash
