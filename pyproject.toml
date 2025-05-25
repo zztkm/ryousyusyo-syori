@@ -5,6 +5,7 @@ description = "領収から日付、店名、金額を抽出する CLI ツール
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastmcp>=2.5.1",
     "ollama>=0.4.8",
     "pytest>=8.3.5",
 ]
@@ -16,6 +17,7 @@ dev = [
 
 [project.scripts]
 ryousyusyo = "ryousyusyo_syori.cli:run"
+ryousyusyo-server = "ryousyusyo_syori.server:run"
 
 [build-system]
 requires = ["hatchling"]
