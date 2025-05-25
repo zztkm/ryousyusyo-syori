@@ -79,3 +79,11 @@ Claude Desktop で使用する場合は、以下のように MCP サーバーを
 - [TypeScript で MCP サーバーを実装し、Claude Desktop から利用する](https://azukiazusa.dev/blog/typescript-mcp-server)
 - [Welcome to FastMCP 2.0! - FastMCP](https://gofastmcp.com/getting-started/welcome)
 - [ollama/ollama-python: Ollama Python library](https://github.com/ollama/ollama-python)
+
+## License
+
+[MIT License](LICENSE)
+
+## Author
+
+- [zztkm](github.com/zztkm)
