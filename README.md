@@ -5,7 +5,7 @@ zztkm のための領収書処理サーバーです。
 ## Install
 
 ```bash
-uv tool install git+https://github.com/zztkm/ryosyusyo-syori
+uv tool install git+https://github.com/zztkm/ryousyusyo-syori
 ```
 
 2 つのツールがインストールされます。
