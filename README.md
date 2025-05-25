@@ -17,10 +17,10 @@ uv tool install git+https://github.com/zztkm/ryousyusyo-syori
 
 CLI ツール
 ```bash
-uvx ryousyusyo --help
+uvx --from ryousyusyo-syori ryousyusyo --help
 ```
 
-MCP サーバー
+MCP サーバーを起動するには以下のコマンドを実行します (stdio モードで実行されます)。
 ```bash
-uvx ryousyusyo-server
+uvx --from ryousyusyo-syori ryousyusyo-server
 ```
