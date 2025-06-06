@@ -42,7 +42,6 @@ def extract_receipt_info(image_path: Path, model: str) -> ReceiptInfo:
     res: ChatResponse = chat(
         model=model, messages=messages, format="json", keep_alive=0
     )
-    print(res.message.content)
     data = json.loads(res.message.content)
     return ReceiptInfo(
         date=data.get("date", ""),
